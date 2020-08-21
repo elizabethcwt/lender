@@ -30,4 +30,10 @@ public class Loan {
     public double getProfit(){
         return amount*interestRate;
     }
+
+    private static int maxLoanAmount = 0;
+
+    public static int getMaxLoanAmount(){
+        return maxLoanAmount;
+    }
 }
